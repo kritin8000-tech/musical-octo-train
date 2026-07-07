@@ -49,3 +49,11 @@ print((monitor+comp+maus+kay)*3)
 a = int(input())
 b = int(input())
 print((3*(a+b)**3)+(275*(b**2))-(127*a)-41)
+
+
+
+a = int(input())
+b = a + 1
+c = a - 1
+print("Следующее за числом", a, "число:", b)
+print("Для числа", a, "предыдущее число:", c)
