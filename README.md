@@ -37,3 +37,11 @@ y = 5
 x = z + y + 7
 
 print(x)
+
+
+monitor = int(input())
+comp = int(input())
+maus = int(input())
+kay = int(input())
+print((monitor+comp+maus+kay)*3)
+
