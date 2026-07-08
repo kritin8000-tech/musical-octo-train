@@ -102,3 +102,15 @@ if ( b - a) + b == c:
     print('YES')
 else:
     print('NO')
+
+
+num = int(input())
+a1 = (num % 10000) // 1000 
+a2 = (num % 1000) // 100 
+a3 = (num % 100) // 10 
+a4 = num % 10 
+if ( a1 + a4 ) == ( a2 - a3 ):
+    print('ДА')
+else:
+    print('НЕТ')
+    
